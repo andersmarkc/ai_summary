@@ -28,6 +28,10 @@ jobs:
         run: gem build ai_summary.gemspec
 
       - name: Publish to RubyGems
-        run: gem push ai_summary-*.gem
         env:
           RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
+        run: |
+          mkdir -p ~/.gem
+          echo -e "---\n:rubygems_api_key: $RUBYGEMS_API_KEY" > ~/.gem/credentials
+          chmod 0600 ~/.gem/credentials
+          gem push ai_summary-*.gem
