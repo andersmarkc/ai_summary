@@ -21,7 +21,7 @@ ApplicationController
   Filters:
     - verify_authenticity_token
     - verify_same_origin_request
-    - #<Proc:0x000000011dbb5300 /Users/aj/.rbenv/versions/3.4.3/lib/ruby/gems/3.4.0/gems/actionpack-7.2.2.1/lib/action_controller/metal/allow_browser.rb:48 (lambda)>
+    - #<Proc:0x00000001207d5bb0 /Users/aj/.rbenv/versions/3.4.3/lib/ruby/gems/3.4.0/gems/actionpack-7.2.2.1/lib/action_controller/metal/allow_browser.rb:48 (lambda)>
   Actions:
 
 # JOBS
