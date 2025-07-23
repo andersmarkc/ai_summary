@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Hotfix Rails s Error">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Push new version v0.1.4">
+      <change beforePath="$PROJECT_DIR$/ai_summary.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/ai_summary.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ai_summary/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai_summary/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753281082472</updated>
       <workItem from="1753281097573" duration="753000" />
-      <workItem from="1753281853845" duration="4088000" />
+      <workItem from="1753281853845" duration="4298000" />
     </task>
     <task id="LOCAL-00001" summary="Add README and Gemspec">
       <option name="closed" value="true" />
@@ -171,7 +171,31 @@
       <option name="project" value="LOCAL" />
       <updated>1753285929263</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Push new version">
+      <option name="closed" value="true" />
+      <created>1753285966210</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753285966210</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Push new version v0.1.4">
+      <option name="closed" value="true" />
+      <created>1753286003268</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753286003268</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Push new version v0.1.4">
+      <option name="closed" value="true" />
+      <created>1753286011189</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753286011189</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +222,8 @@
     <MESSAGE value="Add Dummy app and rspec v2" />
     <MESSAGE value="Update README and Dependencies to allow rails 7 &lt;" />
     <MESSAGE value="Hotfix Rails s Error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotfix Rails s Error" />
+    <MESSAGE value="Push new version" />
+    <MESSAGE value="Push new version v0.1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push new version v0.1.4" />
   </component>
 </project>
