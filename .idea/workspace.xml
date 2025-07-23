@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Push new version v0.1.4">
+    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Push new version v0.1.5">
+      <change afterPath="$PROJECT_DIR$/spec/tasks/ai_summary_task_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai_summary.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/ai_summary.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ai_summary/railtie.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai_summary/railtie.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ai_summary/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai_summary/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spec/dummy/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/dummy/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/spec/dummy/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753281082472</updated>
       <workItem from="1753281097573" duration="753000" />
-      <workItem from="1753281853845" duration="4298000" />
+      <workItem from="1753281853845" duration="5773000" />
     </task>
     <task id="LOCAL-00001" summary="Add README and Gemspec">
       <option name="closed" value="true" />
@@ -195,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753286011189</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Push new version v0.1.5">
+      <option name="closed" value="true" />
+      <created>1753286168440</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753286168440</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Push new version v0.1.5">
+      <option name="closed" value="true" />
+      <created>1753286205597</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753286205597</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +246,7 @@
     <MESSAGE value="Hotfix Rails s Error" />
     <MESSAGE value="Push new version" />
     <MESSAGE value="Push new version v0.1.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push new version v0.1.4" />
+    <MESSAGE value="Push new version v0.1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push new version v0.1.5" />
   </component>
 </project>

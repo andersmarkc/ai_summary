@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
         f.start_with?(*%w[bin/ Gemfile .gitignore .rspec spec/])
     end
   end
-  spec.files += Dir["tasks/**/*.rake"]
+  spec.files += Dir["lib/tasks/**/*.rake"]
 
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
