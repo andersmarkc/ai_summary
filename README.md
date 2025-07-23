@@ -28,10 +28,17 @@ Then run:
 bundle install
 
 ## 🚀 Usage
-Run via Rails runner:
+# Rails Runner
 bundle exec rails runner 'AiSummary::SummaryGenerator.generate'
-Or inside a Rails console:
+
+# Rails Console
 AiSummary::SummaryGenerator.generate
+
+# Rake Task
+bundle exec rake ai_summary:generate                # Default output: rails_summary.txt
+bundle exec rake ai_summary:generate[json]         # Output: rails_summary.json
+bundle exec rake ai_summary:generate[yaml]         # Output: rails_summary.yaml
+
 By default, this will generate a rails_summary.txt file in your project root.
 
 ## 📂 Output Example

@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Test Github Action v3">
-      <change afterPath="$PROJECT_DIR$/lib/ai_summary/summary_generator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tasks/ai_summary.rake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/tasks/ai_summary_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Add Dummy app and rspec v2">
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ai_summary.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/ai_summary.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ai_summary.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai_summary.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/ai_summary_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/ai_summary_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ai_summary/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai_summary/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753281082472</updated>
       <workItem from="1753281097573" duration="753000" />
-      <workItem from="1753281853845" duration="3150000" />
+      <workItem from="1753281853845" duration="3719000" />
     </task>
     <task id="LOCAL-00001" summary="Add README and Gemspec">
       <option name="closed" value="true" />
@@ -139,7 +133,31 @@
       <option name="project" value="LOCAL" />
       <updated>1753283147557</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Dummy app and rspec">
+      <option name="closed" value="true" />
+      <created>1753285049613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753285049613</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add Dummy app and rspec">
+      <option name="closed" value="true" />
+      <created>1753285065962</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753285065962</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Dummy app and rspec v2">
+      <option name="closed" value="true" />
+      <created>1753285169489</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753285169489</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +180,8 @@
     <MESSAGE value="Test Github Action" />
     <MESSAGE value="Test Github Action v2" />
     <MESSAGE value="Test Github Action v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Github Action v3" />
+    <MESSAGE value="Add Dummy app and rspec" />
+    <MESSAGE value="Add Dummy app and rspec v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Dummy app and rspec v2" />
   </component>
 </project>
