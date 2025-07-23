@@ -19,10 +19,7 @@
 ## 📦 Installation
 
 After it's released to [RubyGems.org](https://rubygems.org/gems/ai_summary), add it to your Gemfile:
-
-```bash
 bundle add ai_summary
-
 Or install it manually:
 gem install ai_summary
 If you want to use the gem directly from GitHub before release:
@@ -30,14 +27,14 @@ gem 'ai_summary', git: 'https://github.com/andersmarkc/ai_summary'
 Then run:
 bundle install
 
-🚀 Usage
+## 🚀 Usage
 Run via Rails runner:
 bundle exec rails runner 'AiSummary::SummaryGenerator.generate'
 Or inside a Rails console:
 AiSummary::SummaryGenerator.generate
 By default, this will generate a rails_summary.txt file in your project root.
 
-📂 Output Example
+## 📂 Output Example
 # MODELS
 User (table: users)
   - id: integer
@@ -67,13 +64,13 @@ POST   /orders         => orders#create
 PATCH  /orders/:id     => orders#update
 
 
-🤝 Contributing
+## 🤝 Contributing
 Bug reports and pull requests are welcome on GitHub at
 https://github.com/andersmarkc/ai_summary
 
 This project is intended to be a safe, welcoming space for collaboration. Contributors are expected to follow the Code of Conduct.
 
-📜 License
+## 📜 License
 The gem is available as open source under the terms of the MIT License.
 
 
