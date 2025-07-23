@@ -8,4 +8,9 @@ gemspec
 gem "irb"
 gem "rake", "~> 13.0"
 
-gem "rspec", "~> 3.0"
+# In your Gemfile
+group :development, :test do
+  gem "rspec", "~> 3.0"
+  gem "rspec-rails", "~> 6.0"
+  gem "sqlite3", "~> 2.7"
+end

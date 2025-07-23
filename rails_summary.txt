@@ -1,0 +1,13 @@
+# MODELS
+User (table: users)
+  - id: integer
+  - email: string
+  - created_at: datetime
+  - updated_at: datetime
+
+# ROUTES
+GET    /up(.:format) => rails/health#show
+GET    /service-worker(.:format) => rails/pwa#service_worker
+GET    /manifest(.:format) => rails/pwa#manifest
+# CONTROLLERS
+ApplicationController

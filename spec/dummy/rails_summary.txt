@@ -1,0 +1,20 @@
+# MODELS
+User (table: users)
+  - id: integer
+  - email: string
+  - created_at: datetime
+  - updated_at: datetime
+
+# ROUTES
+GET    /rails/mailers(.:format) => rails/mailers#index
+GET    /rails/mailers/download/*path(.:format) => rails/mailers#download
+GET    /rails/mailers/*path(.:format) => rails/mailers#preview
+GET    /rails/info/properties(.:format) => rails/info#properties
+GET    /rails/info/routes(.:format) => rails/info#routes
+GET    /rails/info(.:format) => rails/info#index
+GET    /up(.:format) => rails/health#show
+GET    /service-worker(.:format) => rails/pwa#service_worker
+GET    /manifest(.:format) => rails/pwa#manifest
+GET    / => rails/welcome#index
+# CONTROLLERS
+ApplicationController

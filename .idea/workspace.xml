@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Test Github Action v2">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/rubygems.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/rubygems.yml" afterDir="false" />
+    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Test Github Action v3">
+      <change afterPath="$PROJECT_DIR$/lib/ai_summary/summary_generator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tasks/ai_summary.rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/tasks/ai_summary_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai_summary.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/ai_summary.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ai_summary.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai_summary.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/ai_summary_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/ai_summary_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +43,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="30HOYw0CzPfd6UVL8dI2mGUJ0fS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +57,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1753281912802",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/aj/RubymineProjects/ai_summary",
+    "last_opened_file_path": "/Users/aj/RubymineProjects/ai_summary/spec",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -76,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753281082472</updated>
       <workItem from="1753281097573" duration="753000" />
-      <workItem from="1753281853845" duration="1287000" />
+      <workItem from="1753281853845" duration="3150000" />
     </task>
     <task id="LOCAL-00001" summary="Add README and Gemspec">
       <option name="closed" value="true" />
@@ -118,17 +131,37 @@
       <option name="project" value="LOCAL" />
       <updated>1753282869396</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Test Github Action v3">
+      <option name="closed" value="true" />
+      <created>1753283147557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753283147557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add README and Gemspec" />
     <MESSAGE value="Update Readme" />
     <MESSAGE value="Test Github Action" />
     <MESSAGE value="Test Github Action v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Github Action v2" />
+    <MESSAGE value="Test Github Action v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Github Action v3" />
   </component>
 </project>

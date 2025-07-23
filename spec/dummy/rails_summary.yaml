@@ -1,0 +1,58 @@
+---
+:models:
+- :name: User
+  :table: users
+  :columns:
+  - :name: id
+    :type: :integer
+  - :name: email
+    :type: :string
+  - :name: created_at
+    :type: :datetime
+  - :name: updated_at
+    :type: :datetime
+  :associations: []
+:routes:
+- :verb: GET
+  :path: "/rails/mailers(.:format)"
+  :controller: rails/mailers
+  :action: index
+- :verb: GET
+  :path: "/rails/mailers/download/*path(.:format)"
+  :controller: rails/mailers
+  :action: download
+- :verb: GET
+  :path: "/rails/mailers/*path(.:format)"
+  :controller: rails/mailers
+  :action: preview
+- :verb: GET
+  :path: "/rails/info/properties(.:format)"
+  :controller: rails/info
+  :action: properties
+- :verb: GET
+  :path: "/rails/info/routes(.:format)"
+  :controller: rails/info
+  :action: routes
+- :verb: GET
+  :path: "/rails/info(.:format)"
+  :controller: rails/info
+  :action: index
+- :verb: GET
+  :path: "/up(.:format)"
+  :controller: rails/health
+  :action: show
+- :verb: GET
+  :path: "/service-worker(.:format)"
+  :controller: rails/pwa
+  :action: service_worker
+- :verb: GET
+  :path: "/manifest(.:format)"
+  :controller: rails/pwa
+  :action: manifest
+- :verb: GET
+  :path: "/"
+  :controller: rails/welcome
+  :action: index
+:controllers:
+- :name: ApplicationController
+  :actions: []
