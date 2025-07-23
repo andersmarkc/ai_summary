@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Update README and Dependencies to allow rails 7 &lt;">
-      <change afterPath="$PROJECT_DIR$/lib/ai_summary/railtie.rb" afterDir="false" />
+    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Hotfix Rails s Error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ai_summary.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai_summary.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/dummy/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/spec/dummy/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ai_summary/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai_summary/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753281082472</updated>
       <workItem from="1753281097573" duration="753000" />
-      <workItem from="1753281853845" duration="4056000" />
+      <workItem from="1753281853845" duration="4088000" />
     </task>
     <task id="LOCAL-00001" summary="Add README and Gemspec">
       <option name="closed" value="true" />
@@ -165,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753285608911</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Hotfix Rails s Error">
+      <option name="closed" value="true" />
+      <created>1753285929263</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753285929263</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +197,7 @@
     <MESSAGE value="Add Dummy app and rspec" />
     <MESSAGE value="Add Dummy app and rspec v2" />
     <MESSAGE value="Update README and Dependencies to allow rails 7 &lt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README and Dependencies to allow rails 7 &lt;" />
+    <MESSAGE value="Hotfix Rails s Error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotfix Rails s Error" />
   </component>
 </project>
