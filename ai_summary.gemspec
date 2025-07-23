@@ -3,38 +3,40 @@
 require_relative "lib/ai_summary/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "ai_summary"
-  spec.version = AiSummary::VERSION
-  spec.authors = ["andersmarkc"]
-  spec.email = ["andersmarkc@gmail.com"]
+  spec.name          = "ai_summary"
+  spec.version       = AiSummary::VERSION
+  spec.authors       = ["Anders Mark Jonassen"]
+  spec.email         = ["andersmarkc@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
-  spec.license = "MIT"
+  spec.summary       = "Generate a structured summary of your Rails codebase for AI-assisted workflows."
+  spec.description   = "AI Summary is a Ruby gem that inspects your Rails project and generates a developer-friendly summary of your models, tables, controllers, routes, and more. Designed to help AI tools understand your application structure for better code suggestions, onboarding, debugging, or documentation."
+
+  spec.homepage      = "https://github.com/andersmarkc/ai_summary"
+  spec.license       = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-    spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
+  spec.metadata["homepage_uri"]      = spec.homepage
+  spec.metadata["source_code_uri"]   = "https://github.com/andersmarkc/ai_summary"
+  spec.metadata["changelog_uri"]     = "https://github.com/andersmarkc/ai_summary/blob/main/CHANGELOG.md"
 
-  # Specify which files should be added to the gem when it is released.
-  # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
-  gemspec = File.basename(__FILE__)
-  spec.files = IO.popen(%w[git ls-files -z], chdir: __dir__, err: IO::NULL) do |ls|
+  spec.files         = IO.popen(%w[git ls-files -z], chdir: __dir__, err: IO::NULL) do |ls|
     ls.readlines("\x0", chomp: true).reject do |f|
-      (f == gemspec) ||
+      (f == File.basename(__FILE__)) ||
         f.start_with?(*%w[bin/ Gemfile .gitignore .rspec spec/])
     end
   end
-  spec.bindir = "exe"
-  spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
+
+  spec.bindir        = "exe"
+  spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  # Dependencies
+  spec.add_dependency "rails", ">= 6.1"
+  spec.add_dependency "activerecord"
+  spec.add_dependency "activesupport"
 
-  # For more information and examples about making a new gem, check out our
-  # guide at: https://bundler.io/guides/creating_gem.html
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "bundler"
 end

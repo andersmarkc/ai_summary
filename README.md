@@ -1,43 +1,80 @@
 # AiSummary
 
-TODO: Delete this and the text below, and describe your gem
+**AI-powered summary generator for Ruby on Rails applications.**  
+`AiSummary` scans your Rails project and creates a structured summary of your models, database tables, associations, controllers, and routes. It’s designed to help AI tools (like ChatGPT or GitHub Copilot) better understand your codebase for debugging, refactoring, onboarding, or generating code.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ai_summary`. To experiment with that code, run `bin/console` for an interactive prompt.
+---
 
-## Installation
+## ✨ Features
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+- Lists all models and their database columns
+- Extracts ActiveRecord associations (`has_many`, `belongs_to`, etc.)
+- Summarizes all controllers and public methods
+- Extracts and maps all routes to their controller actions
+- Outputs a clean `.txt` file (YAML and JSON output planned)
+- Useful for documentation, developer onboarding, and AI integration
 
-Install the gem and add to the application's Gemfile by executing:
+---
+
+## 📦 Installation
+
+After it's released to [RubyGems.org](https://rubygems.org/gems/ai_summary), add it to your Gemfile:
 
 ```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
+bundle add ai_summary
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+Or install it manually:
+gem install ai_summary
+If you want to use the gem directly from GitHub before release:
+gem 'ai_summary', git: 'https://github.com/andersmarkc/ai_summary'
+Then run:
+bundle install
 
-```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
+🚀 Usage
+Run via Rails runner:
+bundle exec rails runner 'AiSummary::SummaryGenerator.generate'
+Or inside a Rails console:
+AiSummary::SummaryGenerator.generate
+By default, this will generate a rails_summary.txt file in your project root.
 
-## Usage
+📂 Output Example
+# MODELS
+User (table: users)
+  - id: integer
+  - email: string
+  - created_at: datetime
+  - has_many :orders
 
-TODO: Write usage instructions here
+Order (table: orders)
+  - id: integer
+  - user_id: integer
+  - total_price: decimal
+  - belongs_to :user
 
-## Development
+# CONTROLLERS
+UsersController
+  - index
+  - show
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+OrdersController
+  - create
+  - update
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+# ROUTES
+GET    /users          => users#index
+GET    /users/:id      => users#show
+POST   /orders         => orders#create
+PATCH  /orders/:id     => orders#update
 
-## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ai_summary. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/ai_summary/blob/main/CODE_OF_CONDUCT.md).
+🤝 Contributing
+Bug reports and pull requests are welcome on GitHub at
+https://github.com/andersmarkc/ai_summary
 
-## License
+This project is intended to be a safe, welcoming space for collaboration. Contributors are expected to follow the Code of Conduct.
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+📜 License
+The gem is available as open source under the terms of the MIT License.
 
-## Code of Conduct
 
-Everyone interacting in the AiSummary project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/ai_summary/blob/main/CODE_OF_CONDUCT.md).
+
