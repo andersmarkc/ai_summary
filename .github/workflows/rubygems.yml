@@ -1,8 +1,10 @@
 name: Publish to RubyGems
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [ main ]
+  # Allows use to run it manually
+  workflow_dispatch:
 
 jobs:
   release:
