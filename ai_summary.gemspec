@@ -5,7 +5,7 @@ require_relative "lib/ai_summary/version"
 Gem::Specification.new do |spec|
   spec.name          = "ai_summary"
   spec.version       = AiSummary::VERSION
-  spec.authors       = ["Anders Mark Jonassen"]
+  spec.authors       = ["Anders Jonassen"]
   spec.email         = ["andersmarkc@gmail.com"]
 
   spec.summary       = "Generate a structured summary of your Rails codebase for AI-assisted workflows."

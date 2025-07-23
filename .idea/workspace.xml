@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Update Readme">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/rubygems.yml" afterDir="false" />
+    <list default="true" id="34d5e5cf-2804-4d8f-a534-bf8fd82f58ab" name="Changes" comment="Test Github Action">
       <change beforePath="$PROJECT_DIR$/ai_summary.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/ai_summary.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753281082472</updated>
       <workItem from="1753281097573" duration="753000" />
-      <workItem from="1753281853845" duration="638000" />
+      <workItem from="1753281853845" duration="834000" />
     </task>
     <task id="LOCAL-00001" summary="Add README and Gemspec">
       <option name="closed" value="true" />
@@ -95,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753281955589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test Github Action">
+      <option name="closed" value="true" />
+      <created>1753282623109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753282623109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add README and Gemspec" />
     <MESSAGE value="Update Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Readme" />
+    <MESSAGE value="Test Github Action" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Github Action" />
   </component>
 </project>
