@@ -21,75 +21,137 @@
           "type": "datetime"
         }
       ],
-      "associations": []
+      "associations": [],
+      "methods": [],
+      "validations": [],
+      "scopes": [],
+      "indexes": []
     }
   ],
   "routes": [
     {
+      "name": "rails_mailers",
       "verb": "GET",
       "path": "/rails/mailers(.:format)",
       "controller": "rails/mailers",
-      "action": "index"
+      "action": "index",
+      "constraints": []
     },
     {
+      "name": null,
       "verb": "GET",
       "path": "/rails/mailers/download/*path(.:format)",
       "controller": "rails/mailers",
-      "action": "download"
+      "action": "download",
+      "constraints": []
     },
     {
+      "name": null,
       "verb": "GET",
       "path": "/rails/mailers/*path(.:format)",
       "controller": "rails/mailers",
-      "action": "preview"
+      "action": "preview",
+      "constraints": []
     },
     {
+      "name": "rails_info_properties",
       "verb": "GET",
       "path": "/rails/info/properties(.:format)",
       "controller": "rails/info",
-      "action": "properties"
+      "action": "properties",
+      "constraints": []
     },
     {
+      "name": "rails_info_routes",
       "verb": "GET",
       "path": "/rails/info/routes(.:format)",
       "controller": "rails/info",
-      "action": "routes"
+      "action": "routes",
+      "constraints": []
     },
     {
+      "name": "rails_info",
       "verb": "GET",
       "path": "/rails/info(.:format)",
       "controller": "rails/info",
-      "action": "index"
+      "action": "index",
+      "constraints": []
     },
     {
+      "name": "rails_health_check",
       "verb": "GET",
       "path": "/up(.:format)",
       "controller": "rails/health",
-      "action": "show"
+      "action": "show",
+      "constraints": []
     },
     {
+      "name": "pwa_service_worker",
       "verb": "GET",
       "path": "/service-worker(.:format)",
       "controller": "rails/pwa",
-      "action": "service_worker"
+      "action": "service_worker",
+      "constraints": []
     },
     {
+      "name": "pwa_manifest",
       "verb": "GET",
       "path": "/manifest(.:format)",
       "controller": "rails/pwa",
-      "action": "manifest"
+      "action": "manifest",
+      "constraints": []
     },
     {
+      "name": null,
       "verb": "GET",
       "path": "/",
       "controller": "rails/welcome",
-      "action": "index"
+      "action": "index",
+      "constraints": []
     }
   ],
   "controllers": [
     {
       "name": "ApplicationController",
-      "actions": []
+      "actions": [],
+      "filters": [
+        "verify_authenticity_token",
+        "verify_same_origin_request",
+        "#<Proc:0x0000000123afb2d8 /Users/aj/.rbenv/versions/3.4.3/lib/ruby/gems/3.4.0/gems/actionpack-7.2.2.1/lib/action_controller/metal/allow_browser.rb:48 (lambda)>"
+      ]
     }
+  ],
+  "jobs": [
+    {
+      "name": "ApplicationJob"
+    }
+  ],
+  "services": [],
+  "gems": [
+    "actioncable",
+    "actionmailbox",
+    "actionmailer",
+    "actionpack",
+    "actiontext",
+    "actionview",
+    "activejob",
+    "activemodel",
+    "activerecord",
+    "activestorage",
+    "activesupport",
+    "ai_summary",
+    "ast",
+    "base64",
+    "benchmark",
+    "bigdecimal",
+    "bindex",
+    "brakeman",
+    "builder",
+    "bundler",
+    "concurrent-ruby",
+    "connection_pool",
+    "crass",
+    "date",
+    "debug"
   ]
 }

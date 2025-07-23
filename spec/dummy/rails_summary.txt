@@ -1,20 +1,64 @@
 # MODELS
 User (table: users)
-  - id: integer
-  - email: string
-  - created_at: datetime
-  - updated_at: datetime
+  Attributes:
+    - id: integer
+    - email: string
+    - created_at: datetime
+    - updated_at: datetime
+  Associations:
+  Validations:
+  Scopes:
+  Indexes:
+  Methods:
 
 # ROUTES
-GET    /rails/mailers(.:format) => rails/mailers#index
-GET    /rails/mailers/download/*path(.:format) => rails/mailers#download
-GET    /rails/mailers/*path(.:format) => rails/mailers#preview
-GET    /rails/info/properties(.:format) => rails/info#properties
-GET    /rails/info/routes(.:format) => rails/info#routes
-GET    /rails/info(.:format) => rails/info#index
-GET    /up(.:format) => rails/health#show
-GET    /service-worker(.:format) => rails/pwa#service_worker
-GET    /manifest(.:format) => rails/pwa#manifest
-GET    / => rails/welcome#index
+GET    /rails/mailers(.:format) => rails/mailers#index (rails_mailers)
+GET    /rails/mailers/download/*path(.:format) => rails/mailers#download ()
+GET    /rails/mailers/*path(.:format) => rails/mailers#preview ()
+GET    /rails/info/properties(.:format) => rails/info#properties (rails_info_properties)
+GET    /rails/info/routes(.:format) => rails/info#routes (rails_info_routes)
+GET    /rails/info(.:format) => rails/info#index (rails_info)
+GET    /up(.:format) => rails/health#show (rails_health_check)
+GET    /service-worker(.:format) => rails/pwa#service_worker (pwa_service_worker)
+GET    /manifest(.:format) => rails/pwa#manifest (pwa_manifest)
+GET    / => rails/welcome#index ()
+
 # CONTROLLERS
 ApplicationController
+  Filters:
+    - verify_authenticity_token
+    - verify_same_origin_request
+    - #<Proc:0x000000011f97d658 /Users/aj/.rbenv/versions/3.4.3/lib/ruby/gems/3.4.0/gems/actionpack-7.2.2.1/lib/action_controller/metal/allow_browser.rb:48 (lambda)>
+  Actions:
+
+# JOBS
+- ApplicationJob
+
+# SERVICES
+
+# GEMS
+- actioncable
+- actionmailbox
+- actionmailer
+- actionpack
+- actiontext
+- actionview
+- activejob
+- activemodel
+- activerecord
+- activestorage
+- activesupport
+- ai_summary
+- ast
+- base64
+- benchmark
+- bigdecimal
+- bindex
+- brakeman
+- builder
+- bundler
+- concurrent-ruby
+- connection_pool
+- crass
+- date
+- debug
