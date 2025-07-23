@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ai_summary (0.1.1)
+    ai_summary (0.1.2)
       activerecord (~> 7.1)
       activesupport (~> 7.1)
       rails (~> 7.1)
